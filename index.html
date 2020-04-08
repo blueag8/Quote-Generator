@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quote Generator</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<container="estimated-quote">
+	<h2>Estimated Quote Generator</h2>
+	<form class="form-group">
+		<div class="ecommerce">
+			<h4>Do you wish to sell products online?</h4>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+			<input type="checkbox"name="Unsure" value="Unsure"></input>
+			<label>Unsure</label>
+		</div>
+
+		<div class="pages">
+			<h4>How many pages would you like on your site?</h4>
+
+			<p>home, contact us, shop, shopping cart, checkout, a blog for example.</p>
+
+			<select defaultvalue="1">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+ </select>
+		</div>
+
+		<div class="email">
+			<h4>Do you wish to have a personalised email?</h4>
+			<p>eg.info@website.com</p>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+			<input type="checkbox"name="Unsure" value="Unsure"></input>
+			<label>Unsure</label>
+		</div>
+
+		<div class="contact-form">
+			<h4>Do you wish to have a "contact us" form which sends messages to your inbox?</h4>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+			<input type="checkbox"name="Unsure" value="Unsure"></input>
+			<label>Unsure</label>
+		</div>
+
+		<div class="logo">
+			<h4> Logo design do you need this? </h4>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+			<input type="checkbox"name="Unsure" value="Unsure"></input>
+			<label>Unsure</label>
+		</div>
+
+
+		<div class="products">
+			<h4>Are you looking at selling items online? what is the product you are selling?</h4>
+			<input type="checkbox" name="Yes" label="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+			<h5>What type of product are you selling?</h5>
+			<input type="textArea"></input>
+		</div>
+
+		<div class="domain">
+			<h4>Do you require a domain name?
+			</h4>
+			<input type="checkbox" name="Yes" label="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+		</div>
+
+		<div class="chat">
+			<p>Would you like chat functionality?</p>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+			<input type="checkbox"name="Unsure" value="Unsure"></input>
+			<label>Unsure</label>
+		</div>
+
+		<div class="social-media">
+			<h4>Do you have social media you wish to link to?</h4>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+			<input type="checkbox">Facebook</input>
+			<input type="checkbox">Twitter</input>
+			<input type="checkbox">Instagram</input>
+			<input type="checkbox">Twitter</input>
+			<input type="checkbox">Instagram</input>
+		</div>
+
+		<div class="admin-access">
+			<h4>Do you want to be able to update and adjust page info your self? </h4>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+			<input type="checkbox"name="Unsure" value="Unsure"></input>
+			<label>Unsure</label>
+		</div>
+
+		<div class="search & filter">
+			<h4>do you want a search and filter functionality?</h4>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+			<input type="checkbox"name="Unsure" value="Unsure"></input>
+			<label>Unsure</label>
+		</div>
+
+		<div class="payment facilities">
+			<h4>Payment facilities</h4>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+			<input type="checkbox"name="Unsure" value="Unsure"></input>
+			<label>Unsure</label>
+			<h5>Online card payment facilities such as Visa, Mastercard etc?</h5>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+
+			<h5>Paypal</h5>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+
+			<h5>AfterPay, ZipPay etc?</h5>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+		</div>
+
+		<div class="images">
+			<h4>Do you wish to buy stock photos?</h4>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+			<h4> Do you have your own images?</h4>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+
+			<h5>Would you like a Carousel</h5>
+			<select>How many?
+    <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>+</option>
+  </select>
+
+			<h5>Upload facilities</h5>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+			<input type="checkbox"name="Unsure" value="Unsure"></input>
+			<label>What do you mean?</label>
+		</div>
+
+		<div class="database">
+			<h5>Do you require a database?</h5>
+			<input type="checkbox" name="Yes" value="Yes"></input>
+			<label>Yes</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No</label>
+			<input type="checkbox"name="No" value="No"></input>
+			<label>No Idea, what is a database?</label>
+		</div>
+
+
+		<div class="amount">
+			<h4>Total</h4>
+			<div class="value" default="$100">{default}</div>
+			<label>Estimated Cost</label>
+		</div>
+
+        <div class="additional">
+        <h5>Do you have any further questions or things you wish to add?</h5>
+        <input type="text"></input>
+        </div>
+
+	</form>
+	</container>
+
+        
+</body>
+</html>
